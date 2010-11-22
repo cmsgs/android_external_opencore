@@ -67,10 +67,10 @@
 namespace android {
 
 static const int32 DEFAULT_AUDIO_NUMBER_OF_CHANNELS = 1;
-static const int32 DEFAULT_AUDIO_SAMPLING_RATE = 44100;
+static const int32 DEFAULT_AUDIO_SAMPLING_RATE = 8000;
 
 static const int32 MAX_AUDIO_SAMPLING_RATE = 96000; // In Hz
-static const int32 MIN_AUDIO_SAMPLING_RATE = 44100;  // In Hz
+static const int32 MIN_AUDIO_SAMPLING_RATE = 8000;  // In Hz
 
 static const int32 MAX_AUDIO_NUMBER_OF_CHANNELS = 2;
 static const int32 MIN_AUDIO_NUMBER_OF_CHANNELS = 1;
