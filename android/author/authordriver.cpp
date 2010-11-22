@@ -433,7 +433,7 @@ void AuthorDriver::handleSetAudioEncoder(set_audio_encoder_command *ac)
     OSCL_HeapString<OsclMemAllocator> iAudioEncoderMimeType;
 
     if (ac->ae == AUDIO_ENCODER_DEFAULT)
-        ac->ae = AUDIO_ENCODER_AAC;
+        ac->ae = AUDIO_ENCODER_AMR_NB;
 
     switch(ac->ae) {
     case AUDIO_ENCODER_AMR_NB:
